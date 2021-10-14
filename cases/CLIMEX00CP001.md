@@ -23,15 +23,25 @@ Crear un nuevo proyecto llamado **P1** y comprobar que el proceso se ha realizad
 
 Como resultado de la secuencia de pasos anteriores se obtiene por pantalla en el interprete de python
 un archivo **JSON** con la siguiente estructura.
+
 {
+
 	"created": "(fecha y hora de la creación del proyecto)",
+	
 	"updated": "(fecha y hora de la creación del proyecto)",
+	
 	"operating": "true",
+	
 	"baseline": [
+	
 		(año menor de la época a estudiar),
+		
 		(año mayor de la época a estudiar),
+		
 	],
+	
 	"stations": [(lista de estaciones incluidas en el proyecto)]
+	
 }
 
 A parte de lo anterior, si el sistema operativo sobre el que se esta trabajando es windows,
@@ -42,7 +52,7 @@ A parte de lo anterior, si el sistema operativo sobre el que se esta trabajando 
 ### Reportar fallo
 
 En caso de que los resultados obtenidos no sean los correctos puede reportar
-una incidencia en a la atención de *amarques@cgf.upv.es*.
+una incidencia a la atención de *amarques@cgf.upv.es*.
 
 
 
