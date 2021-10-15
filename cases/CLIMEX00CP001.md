@@ -16,7 +16,7 @@ Crear un nuevo proyecto llamado **P1** y comprobar que el proceso se ha realizad
 
 1. Abrir el interprete de python.
 2. Escribir el comando *import climex* y ejecutarlo.
-3. Escribir el comando *P1=climex.Project(P1)* y ejecutarlo.
+3. Escribir el comando *P1=climex.Project('P1')* y ejecutarlo.
 4. Escribir el comando *P1* y ejecutarlo.
 
 ### Resultado esperado
@@ -34,9 +34,9 @@ un archivo **JSON** con la siguiente estructura.
 	
 	"baseline": [
 	
-		(año menor de la época a estudiar),
+		(año menor de la época a estudiar, valor por efecto 1961),
 		
-		(año mayor de la época a estudiar),
+		(año mayor de la época a estudiar, valor por defecto 1990),
 		
 	],
 	
@@ -52,7 +52,7 @@ A parte de lo anterior, si el sistema operativo sobre el que se esta trabajando 
 ### Reportar fallo
 
 En caso de que los resultados obtenidos no sean los correctos puede reportar
-una incidencia a la atención de *amarques@cgf.upv.es*.
+una incidencia a la atención de *amarques@cgf.upv.es* indicando en el asunto el identificador CLIMEX00CP001.
 
 
 

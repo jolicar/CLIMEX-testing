@@ -18,7 +18,7 @@ Configurar el proyecto llamado **P1** con una lista de 3 estaciones, 11001, 1100
 1. Abrir el interprete de python.
 2. Escribir el comando *import climex* y ejecutarlo.
 3. Escribir el comando *P1* y ejecutarlo.
-4. Escribir el comando *P1.stations=[1101,11002]* y ejecutarlo.
+4. Escribir el comando *P1.stations=[11001,11002]* y ejecutarlo.
 5. Escribir el comando *P1.stations=11003* y ejecutarlo.
 6. Escribir el comando *P1.baseline=[1971,2000]* y ejecutarlo.
 7. Escribir el comando *P1* y ejecutarlo.
@@ -40,9 +40,9 @@ un archivo **JSON** con la siguiente estructura.
 	
 	"baseline": [
 	
-		(año menor de la época a estudiar),
+		(año menor de la época a estudiar, valor por efecto 1961),
 		
-		(año mayor de la época a estudiar),
+		(año mayor de la época a estudiar, valor por defecto 1990),
 		
 	],
 	
@@ -50,14 +50,40 @@ un archivo **JSON** con la siguiente estructura.
 	
 }
 
+**Paso 7** Como resultado se obtiene por pantalla en el interprete de python
+un archivo **JSON** con la siguiente estructura.
 
+{
 
+	"created": "(fecha y hora de la creación del proyecto)",
+	
+	"updated": "(fecha y hora de la creación del proyecto)",
+	
+	"operating": "true",
+	
+	"baseline": [
+	
+		1971,
+		
+		2000),
+		
+	],
+	
+	"stations": [
+		"11001",
+		
+		"11002",
+		
+		"11003"
+	]
+	
+}
 
 
 ### Reportar fallo
 
 En caso de que los resultados obtenidos no sean los correctos puede reportar
-una incidencia a la atención de *amarques@cgf.upv.es*.
+una incidencia a la atención de *amarques@cgf.upv.es* indicando en el asunto el identificador CLIMEX00CP002.
 
 
 
